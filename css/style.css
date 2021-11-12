@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+:root{
+    
+    --blue:#29d9d5;
+    --black:#111;
+    --white:#fff;
+    --light-color:#aaa;
+    --bg-color:#222;
+    --black-bg:rgb(17, 17, 17);
+    --border: .2rem solid var(--blue);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+   
+  }
+  -webkit-scrollbar {
+      width:1rem ;
+  }
+  -webkit-scrollbar-track{
+      background:var(--black) ;
+  }
+  -webkit-scrollbar-thumb{
+    background:var(--blue) ;
+  }
+
+body{
+    background: var(--black);
+    overflow-x: hidden;
+}
+/*section {
+    padding: 3rem 9%;
+  }*/
+  
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+}
+.logo{
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: bolder;
+}
+.logo i{
+    color: var(--blue);
+    padding-right: .5rem;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    display: inline-block;
+    margin: 0 1rem;
+}
+.navbar a:hover{
+    color: var(--blue);
+}
+
+ .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: var(--blue);
+    border:  var(--border);
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    margin-top: 0;
+  }
+  
+  .btn:hover {
+    background: var(--blue);
+    color: var(--black);
+  }
+  /*menu hamburgue*/
+  #menu-btn{
+      font-size: 2.5rem;
+      color: var(--white);
+      cursor: pointer;
+      display: none;
+  }
+
+  
