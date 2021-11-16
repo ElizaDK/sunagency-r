@@ -7,6 +7,9 @@
     .header{
         padding: 1.5rem 2rem;
     }
+    section{
+        padding: 3rem 2rem;
+    }
 }
 
 
@@ -31,6 +34,16 @@
         font-size: 2rem;
         display: block;
     }
+    .home {
+        margin-top: 10rem;
+    }
+    .home .content span{
+        font-size: 9vw;
+    }
+    .home .content h3{
+        font-size: 8vw;
+    }
+
 }
 
 
@@ -38,5 +51,14 @@
     html{
         font-size: 50%;
     }
-    
+    .about .content h3{
+        font-size: 3rem;
+    }
+    .banner .content h3{
+        font-size: 2rem;
+        
+    }
+    .banner .content p{
+        font-size: 2rem;
+    }
 }
