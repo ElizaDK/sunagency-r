@@ -40,8 +40,13 @@
     .home .content span{
         font-size: 9vw;
     }
-    .home .content h3{
-        font-size: 8vw;
+       .banner .content h3{
+        font-size: 2rem;
+        
+    }
+    .banner .content p{
+        font-size: 1rem;
+        max-width: 40rem;
     }
 
 }
@@ -59,6 +64,7 @@
         
     }
     .banner .content p{
-        font-size: 2rem;
+        font-size: 1rem;
+        max-width: 40rem;
     }
 }
